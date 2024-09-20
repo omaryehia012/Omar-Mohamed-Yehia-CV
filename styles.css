@@ -1,16 +1,16 @@
 body {
-    background-color: #fff;
-    color: #000;
+    background-color: #28a745; /* Green background */
+    color: #fff; /* White text */
     font-family: Arial, sans-serif;
 }
 
 a {
-    color: #000;
+    color: #fff; /* White links */
     text-decoration: none;
 }
 
 a:hover {
-    color: #ccc;
+    color: #ccc; /* Light gray on hover */
 }
 
 .container {
@@ -23,28 +23,64 @@ a:hover {
 }
 
 .icons img {
-    width: 24px;
-    height: 20px;
-    margin-right: 10px;
+    width: 50px; /* Increased size for visibility */
+    height: 50px;
+    margin-right: 20px;
     vertical-align: middle;
 }
 
 .experience {
     text-align: left;
     margin-bottom: 20px;
+    color: #000; /* Black text for the experience section */
+    background-color: #f0f0f0; /* Light gray background for the experience section */
+    padding: 15px;
+    border-radius: 8px; /* Slight rounded corners */
 }
 
 .experience h3 {
     display: inline-block;
     margin: 0;
+    font-size: 1.5em;
+    color: #007bff; /* Blue for job titles */
 }
 
 .experience p {
     display: inline-block;
     margin-left: 10px;
     font-style: italic;
+    font-size: 1.2em;
+    color: #555; /* Gray for job dates */
 }
 
 ul {
     padding-left: 20px;
+    color: #000; /* Black for list items */
+}
+
+section.container {
+    margin-bottom: 30px;
+}
+
+.icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+/* Make buttons and links more visible */
+button, a {
+    padding: 10px 15px;
+    background-color: #007bff; /* Button background */
+    border-radius: 5px;
+    color: #fff; /* White text */
+}
+
+button:hover, a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
