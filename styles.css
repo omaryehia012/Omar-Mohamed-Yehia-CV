@@ -29,6 +29,7 @@ a:hover {
     vertical-align: middle;
 }
 
+/* Experience Section */
 .experience {
     text-align: left;
     margin-bottom: 20px;
@@ -37,14 +38,33 @@ a:hover {
 .experience h3 {
     display: inline-block;
     margin: 0;
+    font-size: 1.2em;
 }
 
 .experience p {
     display: inline-block;
     margin-left: 10px;
     font-style: italic;
+    font-size: 1em;
 }
 
 ul {
     padding-left: 20px;
+}
+
+/* Extra: Adjust padding for better spacing between sections */
+section.container {
+    margin-bottom: 30px;
+}
+
+/* Ensure links/icons stay properly aligned */
+.icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
 }
